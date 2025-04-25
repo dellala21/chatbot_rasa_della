@@ -1,1 +1,1 @@
-web: rasa run --enable-api --cors "*" --connector telegram --port $PORT
+web: python app.py
