@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Chatbot Rasa sedang berjalan di Railway!"
+    return "Chatbot Rasa sedang berjalan di Replit!"
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
