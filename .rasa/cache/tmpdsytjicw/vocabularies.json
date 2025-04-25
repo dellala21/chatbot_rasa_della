@@ -1,0 +1,51 @@
+{
+  "text": {
+    "berapa": 2,
+    "kandungan": 14,
+    "gizi": 7,
+    "nasi": 16,
+    "goreng": 8,
+    "info": 10,
+    "dari": 4,
+    "rendang": 19,
+    "nilai": 17,
+    "nutrisi": 18,
+    "sate": 20,
+    "ayam": 1,
+    "saya": 21,
+    "ingin": 11,
+    "tahu": 23,
+    "kasih": 15,
+    "gado": 6,
+    "dong": 5,
+    "halo": 9,
+    "kamu": 13,
+    "bisa": 3,
+    "apa": 0,
+    "kabar": 12,
+    "siapa": 22
+  },
+  "intent": {
+    "tanya_gizi": 1,
+    "fallback": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 7,
+    "action_restart": 8,
+    "action_session_start": 10,
+    "action_default_fallback": 5,
+    "action_deactivate_loop": 2,
+    "action_revert_fallback_events": 9,
+    "action_default_ask_affirmation": 3,
+    "action_default_ask_rephrase": 4,
+    "action_two_stage_fallback": 11,
+    "action_unlikely_intent": 12,
+    "action_back": 0,
+    "action_extract_slots": 6,
+    "action_cek_gizi": 1,
+    "utter_fallback": 13
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

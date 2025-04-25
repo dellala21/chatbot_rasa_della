@@ -1,0 +1,18 @@
+version: "3.1"
+
+test_stories:
+
+- story: Test tanya gizi makanan
+  steps:
+  - user: |
+      berapa kalori nasi goreng?
+    intent: tanya_gizi
+  - action: action_cek_gizi
+  - action: utter_gizi
+
+- story: Test fallback ketika pertanyaan tidak dimengerti
+  steps:
+  - user: |
+      siapa presiden indonesia?
+    intent: fallback
+  - action: utter_fallback

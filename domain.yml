@@ -1,0 +1,31 @@
+version: "3.1"
+
+intents:
+  - tanya_gizi
+  - fallback
+
+entities:
+  - makanan
+
+slots:
+  makanan:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Halo! Aku bisa bantu kasih tahu informasi gizi makanan. Tanyakan aja namanya!"
+
+  utter_fallback:
+    - text: "Maaf, aku belum ngerti pertanyaan itu. Coba tanya tentang makanan ya :)"
+
+actions:
+  - action_cek_gizi
+  - greet
+  - fallback
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

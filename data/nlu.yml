@@ -1,0 +1,112 @@
+nlu:
+- intent: tanya_gizi
+  examples: |
+    - berapa kalori nasi goreng?
+    - info gizi nasi goreng
+    - kasih tahu info gizi gado-gado dong
+    - gizi dari sate ayam
+    - berapa kandungan gizi rendang?
+    - kandungan nutrisi gado-gado
+    - gizi dari makanan rendang
+    - makanan ini gizinya berapa?
+    - saya ingin tahu kandungan gizi nasi goreng
+    - info gizi bakwan?
+    - berapa kalori bakwan?
+    - kandungan gizi bakwan
+    - gizi bika ambon
+    - kandungan nutrisi bika ambon
+    - berapa kandungan gizi bika ambon?
+    - gizi pada ketoprak?
+    - kandungan gizi ketoprak
+    - berapa kalori ketoprak?
+    - info gizi ketoprak
+    - info gizi lapis legit?
+    - kandungan gizi lapis legit
+    - berapa kandungan gizi lapis legit?
+    - gizi dari lapis legit
+    - martabak india gizi?
+    - kandungan nutrisi martabak india
+    - berapa kandungan gizi martabak india?
+    - gizi martabak mesir?
+    - kandungan gizi martabak mesir
+    - berapa kalori martabak mesir?
+    - info gizi martabak mesir
+    - berapa gizi mie aceh rebus?
+    - kandungan gizi mie aceh rebus
+    - info gizi mie aceh rebus
+    - gizi dari mie aceh rebus
+    - kalori pada mie ayam
+    - kandungan gizi mie ayam
+    - info gizi mie ayam?
+    - berapa kandungan gizi mie ayam?
+    - gizi mie bakso?
+    - kandungan gizi mie bakso
+    - berapa kalori mie bakso?
+    - info gizi mie celon?
+    - kandungan gizi mie celon
+    - berapa kandungan gizi mie celon?
+    - gizi mie pangsit basah
+    - kandungan gizi mie pangsit basah
+    - berapa kalori mie pangsit basah?
+    - kalori nasi gemuk?
+    - kandungan gizi nasi gemuk
+    - info gizi nasi gemuk
+    - gizi nas gurih?
+    - kandungan gizi nasi gurih
+    - berapa kandungan gizi nasi gurih?
+    - berapa gizi nasi minyak?
+    - kandungan gizi nasi minyak
+    - info gizi nasi minyak
+    - berikan info gizi nasi rames?
+    - kandungan gizi nasi rames
+    - berapa kandungan gizi nasi rames?
+    - gizi pada spaghetti?
+    - kandungan gizi spaghetti
+    - berapa kalori spaghetti?
+    - info gizi spaghetti
+    - gizi getuk goreng?
+    - kandungan gizi getuk goreng
+    - berapa kalori getuk goreng?
+    - info gizi getuk singkong?
+    - kandungan gizi getuk singkong
+    - berapa kandungan gizi getuk singkong?
+    - kalori keremes?
+    - kandungan gizi keremes
+    - info gizi keremes
+    - berapa kalori keripik gadung?
+    - kandungan gizi keripik gadung
+    - info gizi keripik gadung
+    - info gizi keripik kentang?
+    - kandungan gizi keripik kentang
+    - berapa kalori keripik kentang?
+    - berapa gizi keripik singkong?
+    - kandungan gizi keripik singkong
+    - info gizi keripik singkong
+    - nutrisi keripik tempe?
+    - kandungan gizi keripik tempe
+    - berapa kalori keripik tempe?
+    - gizi tahu goreng?
+    - kandungan gizi tahu goreng
+    - berapa kalori tahu goreng?
+    - gizi pada tahu telur?
+    - kandungan gizi tahu telur
+    - berapa kalori tahu telur?
+
+
+- intent: greet
+  examples: |
+    - halo
+    - hai
+    - selamat pagi
+    - hey
+    - assalamualaikum
+    - hei
+    - selamat siang
+    - selamat malam
+    
+
+- intent: fallback
+  examples: |
+    - siapa presiden indonesia?
+    - berapa umur bumi?
+    - jelaskan teori relativitas

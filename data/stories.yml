@@ -1,0 +1,6 @@
+version: "3.1"
+stories:
+- story: tanya gizi makanan
+  steps:
+    - intent: tanya_gizi
+    - action: action_cek_gizi

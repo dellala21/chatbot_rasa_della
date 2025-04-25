@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+- rule: Menjawab pertanyaan gizi
+  steps:
+  - intent: tanya_gizi
+  - action: action_cek_gizi
+
+- rule: Menyapa user
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- rule: Fallback jika pertanyaan tidak dikenali
+  steps:
+  - intent: fallback
+  - action: utter_fallback
